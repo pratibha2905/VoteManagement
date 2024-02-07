@@ -11,6 +11,10 @@ public interface userStoryService {
 	//public userStories getUserStoryStatus(int id);
 
 	public userStoriesDTO findUserStoryById(int id);
+
+	public userStoriesDTO updatetotalVotes(int id);
+
+	public userStoriesDTO getUserStoryStatus(int id);
 	
 	
 }
